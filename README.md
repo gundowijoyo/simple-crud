@@ -8,7 +8,7 @@ Repo ini berisi proyek website CRUD yang dapat digunakan untuk mengelola data.
 1. **Clone Repository**
    - Clone repository ini ke dalam direktori lokal menggunakan perintah berikut:
      ```
-     git clone [URL repository]
+     git clone https://github.com/guns-joy/simple-crud.git
      ```
 
 2. **Menghidupkan XAMPP**
@@ -20,10 +20,10 @@ Repo ini berisi proyek website CRUD yang dapat digunakan untuk mengelola data.
 
 4. **Import Database**
    - Buka phpMyAdmin melalui panel XAMPP atau akses melalui browser.
-   - Buat database baru dan impor file database yang ada di dalam proyek ke dalam database yang baru dibuat.
+     -impor file `db.sql` yang ada di dalam proyek lalu klik go.
 
 5. **Konfigurasi Servername, Username, dan Nama Database**
-   - Buka file konfigurasi proyek (misalnya: `config.php`) dan sesuaikan parameter servername, username, dan nama database dengan pengaturan server dan database Anda.
+   - Buka file konfigurasi proyek (misalnya: `koneksi.php`) dan sesuaikan parameter servername, username, dan nama database dengan pengaturan server dan database Anda.
 
 6. **Menjalankan Website**
    - Buka browser dan akses website menggunakan URL yang sesuai dengan pengaturan server Anda.
@@ -35,4 +35,4 @@ Repo ini berisi proyek website CRUD yang dapat digunakan untuk mengelola data.
 - Pastikan Anda telah menginstal XAMPP dan semua dependensi yang dibutuhkan sebelum menjalankan website.
 - Untuk bantuan lebih lanjut, silakan lihat dokumentasi XAMPP atau hubungi tim pengembang.
 
-Selamat menggunakan!
+Selamat menggunakan 🫠🤩!
