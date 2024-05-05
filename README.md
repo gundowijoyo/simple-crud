@@ -22,8 +22,8 @@ Repo ini berisi proyek website CRUD yang dapat digunakan untuk mengelola data.
    - Buka phpMyAdmin melalui panel XAMPP atau akses melalui browser.
      -impor file `db.sql` yang ada di dalam proyek lalu klik go.
 
-5. **Konfigurasi Servername, Username, dan Nama Database**
-   - Buka file konfigurasi proyek (misalnya: `koneksi.php`) dan sesuaikan parameter servername, username, dan nama database dengan pengaturan server dan database Anda.
+5. **Konfigurasi Servername, Username,Password, dan Nama Database**
+   - Buka file konfigurasi proyek (misalnya: `koneksi.php`) dan sesuaikan parameter servername, username, password,dan nama database dengan pengaturan server dan database Anda.
 
 6. **Menjalankan Website**
    - Buka browser dan akses website menggunakan URL yang sesuai dengan pengaturan server Anda.
