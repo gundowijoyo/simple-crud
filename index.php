@@ -103,9 +103,9 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
   ?>
 <tr>
 <td><?php echo $index;?></td>
-<td><?php echo $row['nama_barang']; ?></td>
-<td><?php echo $row['deskripsi_barang']; ?></td>
-<td><?php echo $row['stok_barang']; ?></td>
+<td><?php echo htmlspacialchars($row['nama_barang']); ?></td>
+<td><?php echo htmlspacialchars($row['deskripsi_barang']); ?></td>
+<td><?php echo htmlspacialchars($row['stok_barang']); ?></td>
 <td class="flex-items-center">
 <a href="aksi/edit/edit.php?id=<?php echo $row['id']; ?>" class="edit">Edit</a>
   <a href="#" class="hapus" onclick="confirmDelete(<?php echo $row['id']; ?>)">Hapus</a>
